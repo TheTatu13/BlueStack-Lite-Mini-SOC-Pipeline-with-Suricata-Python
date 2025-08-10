@@ -1,0 +1,6 @@
+{"event_type": "dns", "src_ip": "10.0.0.5", "dns": {"rrname": "example.com"}}
+{"event_type": "dns", "src_ip": "10.0.0.5", "dns": {"rrname": "example.com"}}
+{"event_type": "dns", "src_ip": "10.0.0.7", "dns": {"rrname": "weird.long.domain.example"}}
+{"event_type": "http", "src_ip": "10.0.0.5", "http": {"hostname": "insecure.test", "authorization": "Basic dXNlcjpwYXNz"}}
+{"event_type": "tls", "src_ip": "10.0.0.8", "tls": {"ja3": "771,4865-4866-4867-49195,23-24-25", "issuerdn": "O=Self-signed", "subject": "CN=test"}}
+{"event_type": "alert", "src_ip": "10.0.0.5", "alert": {"signature": "ET TEST Malicious Activity"}}
