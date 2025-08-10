@@ -46,7 +46,7 @@ rule-files:
   - local.rules
 ```
 
-## What to say in interviews
+
 - **Scope**: “I built a mini SOC pipeline around Suricata. It parses eve.json, computes KPIs, flags risky patterns (DNS bursts, basic auth over HTTP, self-signed TLS), and outputs a readable report with next steps.”
 - **Detections**: “I wrote small, explainable heuristics and paired them with Suricata rules in `detections/`. I can extend them into Sigma-style logic or forward to a SIEM.”
 - **Quality**: “Repo has tests, a clear README, and is easily runnable. I kept it dependency-light.”
